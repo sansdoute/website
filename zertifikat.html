@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  
+  <title>Zertifikate - Chris Moshövel</title>
+   <meta name="description" content="Diese Website ist entstanden um zu üben">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+ <div class="site-wrapper">
+    <header>
+        <img src="css/logo250.png">
+    </header>
+
+
+
+    <nav class="site-nav">
+        <ul class="site-nav-list">
+            <li> <a href="startseite.html">Startseite</a></li>
+            <li><a href="zertifikat.html" class="sie-sind-hier">Zertifikate</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+
+    
+    
+
+    <section class="site-zertifikate">
+        <article class="überschrift">
+            <h1>Meine Zertifikate</h1>
+            <p>Auf dieser Seite sind meine bisher erlangten Zertifikate zu sehen</p>
+           
+        </article>
+
+        <div class="flex-imgs">
+              <img src="css/zertifikat1.png" alt="zertifikat html" onmouseover="this.src='css/zernr1.png'" onmouseout="this.src='css/zertifikat1.png'" onclick="myFunction1()" >
+               <img src="css/zertifikat2.PNG" alt="zertifikat html" onmouseover="this.src='css/zernr2.png'" onmouseout="this.src='css/zertifikat2.png'" onclick="myFunction2()">
+               <img src="css/zertifikat3.PNG" alt="zertifikat html" onmouseover="this.src='css/zernr3.png'" onmouseout="this.src='css/zertifikat3.png'" onclick="myFunction3()">
+               <img src="css/zertifikat4.PNG" alt="zertifikat html" onmouseover="this.src='css/zernr4.png'" onmouseout="this.src='css/zertifikat4.png'" onclick="myFunction4()">
+               <img src="css/zertifikatgoogle.PNG" alt="zertifikat html" onmouseover="this.src='css/zergoogle.png'" onmouseout="this.src='css/zertifikatgoogle.png'" onclick="myFunction5()">
+
+        </div>
+
+    </section>
+ 
+
+
+    <footer class="site-footer">
+        <nav class="meta-nav">
+            <ul class="meta-nav-list">
+                <li><a href="#top"> Nach oben</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+<input type="text" value="MJ4 SJJ 3NP" id="zfgoogle"> </input>
+
+
+</div>
+</div>
+
+
+<script>
+    
+    function myFunction1() { 
+                window.open("https://www.linkedin.com/feed/update/urn:li:activity:6771579353022181376/", "_blank"); 
+            } 
+
+            function myFunction2() { 
+                window.open("https://www.linkedin.com/feed/update/urn:li:activity:6771871280493850624/", "_blank"); 
+            } 
+    
+            function myFunction3() { 
+                window.open("https://www.linkedin.com/feed/update/urn:li:activity:6772211197602250752/", "_blank"); 
+            } 
+
+            function myFunction4() { 
+                window.open("https://www.linkedin.com/feed/update/urn:li:activity:6772450597846212608/", "_blank"); 
+            } 
+
+    function myFunction5() {
+    var copyText = document.getElementById("zfgoogle");
+    copyText.select();
+    document.execCommand("copy");
+    alert("Auf learndigital.withgoogle.com/zukunftswerkstatt/validate-certificate-code verifizieren : " + copyText.value);
+    }
+
+</script>
+
+
+</body>
+</html>
