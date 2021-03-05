@@ -1,0 +1,71 @@
+@media screen {
+
+    
+    .site-nav {
+        
+        position: -webkit-sticky; 
+          position: sticky; 
+          height: 100%;
+          top: 0; 
+          z-index: 99999;
+          }
+      
+       .site-nav-list{
+         display: flex;
+         flex-wrap: wrap;
+         overflow: hidden;
+         background-color: #eb732e;
+         
+         
+         
+         
+       }
+       
+       .site-nav-list a{
+         color: white;
+         text-align: center;
+         padding: 0.5rem 1rem;
+         text-decoration: none;
+         background:#0b3d05;
+         
+        
+        
+       }
+      
+      
+       .site-nav-list li { 
+        display: flex; 
+        border-right: 1px solid #eee; 
+        
+        text-align: center; 
+        
+       }
+      
+       .site-nav-list a.sie-sind-hier {
+        background: #666; 
+        color: white; 
+      }  
+      
+      .site-nav-list a:hover, 
+      .site-nav-list a:focus {
+        background: #666; 
+        color: white; 
+      }
+      
+      .site-nav-list a:active {
+        background: #0b74b8; 
+        color: white; 
+      }  
+
+
+
+
+
+
+
+
+
+
+
+
+} /* Ende @media */

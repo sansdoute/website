@@ -1,0 +1,116 @@
+
+
+
+.kontaktinhalt {
+  display: flex;
+  flex-flow: column;
+  
+}
+
+
+
+.kontaktformular button {
+  
+  font-size: inherit;
+  font-family: inherit;
+  
+  
+  
+  background: #eb732e;
+  color: white;
+  border: none;
+  cursor: no-drop;
+} 
+
+
+.kontaktformular button:hover, 
+.kontaktformular button:focus {
+  background: #666; 
+}
+
+.kontaktformular button:active {
+  background: #0b74b8; 
+}
+
+.kontaktdaten {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  background: #d7d7d794;
+  padding: 2rem;
+  
+  border-right: 0.5rem solid #0b3d05;
+  border-left: 0.5rem solid #0b3d05;
+  border-top: 0.5rem solid #eb732e;
+  border-bottom: 0.5rem solid #eb732e;
+  
+
+  animation-name: stretch;
+  animation-duration: 2s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count:1;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: #0b3d05;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #eb732e;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #d7d7d794;
+  }
+}
+
+@media screen and (min-width: 490px) {
+  
+  
+.header1 {grid-area: header1;} 
+.site-nav1 {grid-area: site-nav1}
+.überschrift {grid-area: überschrift;}
+.kontaktdaten {grid-area: kontaktdaten;}
+.kontaktformular-abschnitt {grid-area: kontaktformular-abschnitt;}
+.site-footer1 {grid-area: site-footer1;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  
+  
+  'überschrift überschrift'
+  'kontaktdaten kontaktformular-abschnitt'
+  'site-footer1 site-footer1';
+ 
+ 
+  
+  min-height: 85vh;
+  
+ }
+
+ .site-nav1{
+  margin-bottom: auto;
+ }
+
+ .site-footer1 {
+   margin-top: auto;
+ }
+ 
+ 
+ 
+  
+
+
+
+
+
+
+} /*Ende @media */

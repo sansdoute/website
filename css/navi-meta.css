@@ -1,0 +1,52 @@
+@media screen {
+
+  
+    .meta-nav-list {
+        display: flex; 
+        list-style-type: none; 
+        background-color: #0b3d05; 
+        
+        
+        
+         
+      }
+      
+    
+
+      .meta-nav-list a {
+        display: block; 
+        text-decoration: none; 
+        
+        border-right: 1px solid #eee;
+        align-self: flex-end;
+        background: #eb732e; 
+        color: white; 
+    
+         
+        padding: 0.25rem;
+       
+       }
+      
+      .meta-nav-list a:hover, 
+      .meta-nav-list a:focus {
+        background: #666; 
+        color: white; 
+      }
+      
+      .meta-nav-list a:active {
+        background: #0b74b8; 
+        color: white; 
+      }  
+
+
+
+
+
+
+
+
+
+
+
+
+} /* Ende @media */

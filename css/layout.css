@@ -1,0 +1,130 @@
+@media screen {
+
+   
+   
+  .site-wrapper {
+            
+    min-width: 320px;
+    max-width: 1520px; 
+    padding: 0 1rem; 
+    margin: 0 auto; 
+    
+    
+  }
+ 
+      
+        
+      .site-logo {
+        margin-bottom: 0; 
+     
+      }
+    
+     
+
+    .site-aside {
+        display: flex;
+        flex-flow: column;
+        padding-top: 6rem;
+    }
+
+    
+ 
+      @media screen and (min-width: 490px) {
+        
+       
+        
+        
+        
+   
+        
+         .site-article {
+            
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #d7d7d794;
+        }
+
+       
+
+        .site-content {
+            float: left;
+            width: 80%;
+            margin-bottom: 5rem;
+            margin: auto;
+            
+        }
+
+        .site-aside {
+          float: right;
+          width: 20%;
+      }
+
+        .site-content img,
+        .überschrift {
+            
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .wrapper {
+            margin: 0 auto;
+            grid-template-columns: 3fr 1fr;
+          }
+
+          .site-nav, .footer {
+            grid-column: 1 / -1;
+           
+            clear: both;
+          }
+
+          .wrapper > * {
+            font-size: 150%;
+            
+            margin-bottom: 10px;
+            
+          }
+
+          @supports (display: grid) {
+            .wrapper > * {
+              width: auto;
+              margin: 0;
+              grid-template-columns: 1fr 3fr;
+              
+            }
+          }
+
+      }
+
+      .imagechris > img {
+          object-fit: cover;
+          width: 85%;
+        max-height: 100%;
+        border-right: 0.5rem solid #0b3d05;
+        border-left: 0.5rem solid #0b3d05;
+        border-top: 0.5rem solid #eb732e;
+        border-bottom: 0.5rem solid #eb732e;
+      }
+
+
+      .site-footer {
+        grid-column: 1 / 3;
+        
+        
+        
+        display:flex;
+        flex-flow:column;
+      
+       
+        
+        
+        clear: both; 
+      }
+      .site-footer a {
+        color: white; 
+        text-decoration: none; 
+        
+      }
+
+} /* Ende @media */
+
+

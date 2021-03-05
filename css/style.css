@@ -1,0 +1,32 @@
+@import url(layout.css);
+
+@import url(nav-list.css);
+
+@import url(navi-meta.css);
+
+@import url(content.css);
+
+@import url(index.css);
+
+@import url(zertifikat.css);
+
+@import url(kontakt.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", Arial, sans-serif;
+  
+}
+
+ 
+  
+ 
+ 
+ 
+ 
+

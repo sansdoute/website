@@ -1,0 +1,58 @@
+
+
+
+    .flex-imgs img {
+    max-width: 250px;
+    margin: 5px;
+    }
+    #zfgoogle {
+    display: none;
+}
+    
+@media screen and (min-width: 490px) {
+        
+        
+        
+
+     .flex-imgs {
+         display: flex;
+         flex-wrap: wrap;
+         padding: 5px;
+         align-content: center;
+     }
+     
+     .flex-imgs img {
+         max-width: 450px;
+         margin: 5px;
+         position: relative;
+
+         border-right: 0.5rem solid #0b3d05;
+        border-left: 0.5rem solid #0b3d05;
+        border-top: 0.5rem solid #eb732e;
+        border-bottom: 0.5rem solid #eb732e;
+     }
+
+     .site-wrapper > * {
+        font-size: 150%;
+        
+    
+      
+      /*
+      .flex-imgs img:hover {
+        position:relative;
+        top:-25px;
+        left:-35px;
+        width:100%;
+        height:auto;
+        display:block;
+        z-index:999;
+    }   */
+    
+    
+    }/* Ende @media */
+
+    
+      
+
+
+}
